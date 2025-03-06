@@ -1,0 +1,167 @@
+{
+    "file_types": [
+        ".html",
+        ".css"
+    ],
+    "criteria": [
+        {
+            "category": "Standard & teknik",
+            "steps": [
+                {
+                    "description": "HTML-koden inuti body-elementet innehåller minst 5 olika slags HTML-element",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer."
+                },
+                {
+                    "description": "HTML-elementen har valid struktur enligt HTML5",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer. Tex table-element ska innehålla tr och td-element på korrekt sätt."
+                },
+                {
+                    "description": "Minst 5 CSS-regler med tagg-selektorer",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara CSS-filer. CSS-reset regler räknas inte med, som tex: 'Enkel CSS-reset'"
+                },
+                {
+                    "description": "HTML-koden inuti body-elementet innehåller ca 10 olika slags HTML-element",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: esta bara HTML-kod inuti HTML-filer.  Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body-elementet, samt en variation av element."
+                },
+                {
+                    "description": "Hel och fungerande webbplats med minst 3 webbsidor sammanläkande med en meny på varje sida",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Extern CSS-fil länkad till flera HTML-filer",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Använder några CSS-klasser för att gruppera element",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara CSS-filer. Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Använder komplexa CSS-regler som kombinerar flera selektorer. Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: CSS ska omfatta alla huvudelement med anpassade regler för typsnitt, färger, marginaler och andra visuella egenskaper. HTML-koden består av minst 8 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Innehåller fungerande kolumnlayout byggd med CSS grid eller flex. Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: CSS ska omfatta alla huvudelement med anpassade regler för typsnitt, färger, marginaler och andra visuella egenskaper. HTML-koden består av minst 8 nivåer av nästlade element inuti body, samt en variation av element."
+                }
+            ]
+        },
+        {
+            "category": "Praxis & kvalitet",
+            "steps": [
+                {
+                    "description": "Inga oavslutade HTML-taggar",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer."
+                },
+                {
+                    "description": "Ingen HTML-kod utanför body-elementet",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer."
+                },
+                {
+                    "description": "Några kommentarer i CSS-koden",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: CSS-reset kommentarer räknas inte."
+                },
+                {
+                    "description": "HTML-taggar används på rätt sätt enligt deras specifika funktion.",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": ""
+                },
+                {
+                    "description": "Alla filer är namngivna enligt god praxis, med små bokstäver och bindestreck istället för mellanslag.",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": ""
+                },
+                {
+                    "description": "Använder en CSS-reset och anpassar befintliga HTML-elementen efter det med egna regler för att uppnå önskad design (margin, padding, typsnitt).",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Använder header, nav och main enligt deras funktion i HTML5. Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "All CSS-kod är kommenterad. Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Väl valda namn för CSS klass-regler. Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: CSS ska omfatta alla huvudelement med anpassade regler för typsnitt, färger, marginaler och andra visuella egenskaper."
+                },
+                {
+                    "description": "Skriver smarta CSS-regler enligt KIS-principen. (Keep It Simple). Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: CSS ska omfatta alla huvudelement med anpassade regler för typsnitt, färger, marginaler och andra visuella egenskaper."
+                },
+                {
+                    "description": "Uppfyller kraven på responsiv design på ett tillfredsställande sätt: mobil, surfplatta och desktop.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: CSS ska omfatta alla huvudelement med anpassade regler för typsnitt, färger, marginaler och andra visuella egenskaper."
+                }
+            ]
+        },
+        {
+            "category": "Tillgänglighet",
+            "steps": [
+                {
+                    "description": "Några bilder har beskrivande alt-attribut",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Minst 2 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Språket är korrekt satt på webbsidan",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget:  Minst 2 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Alla bilder har beskrivande alt-attribut. Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 5 nivåer av nästlade element inuti body, samt en variation av element."
+                },
+                {
+                    "description": "Använder semantiska element för att strukturera sidan (nav, main, header). Koden ska vara strukturerad och innehålla en variation av HTML-element för att uppnå semantisk tydlighet.",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Koden bör ha tillräcklig mängd och variation för att ge en komplett upplevelse. HTML-koden består av minst 8 nivåer av nästlade element inuti body, samt en variation av element."
+                }
+            ]
+        }
+    ]
+}

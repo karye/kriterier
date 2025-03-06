@@ -1,0 +1,68 @@
+{
+    "file_types": [".html", ".css"],
+    "criteria": [
+        {
+            "category": "Standard & teknik",
+            "steps": [
+                {
+                    "description": "HTML-koden inuti body-elementet innehåller HTML-elementen: h1, h2, p, a, img, table; och har valid struktur enligt HTML5-standard.",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer. HTML-koden består av minst 2 nivåer av nästlade element inuti body-elementet. Exempelvis ska table innehålla tr och td på korrekt sätt."
+                },
+                {
+                    "description": "Google Fonts-typsnittet 'Playfair Display' används på alla text-element. Specifika färger används enligt följande: #000000 för textfärg, #7f0029 för h1 och a, #ffffff som bakgrundsfärg på div-kontainer. body har en bakgrundsbild.",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller CSS-filer. CSS-reset regler räknas inte med för tagg-selektorer."
+                },
+                {
+                    "description": "Designkrav och färger: huvudcontainer är centrerad med en maxbredd på ca 600px, bakgrundsfärg på tabellens caption är #7f0029.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: HTML och CSS. Containern är centrerad med maxbredd runt 600px. Ingen CSS Flex eller Grid krävs. Små avvikelser i nyans accepteras."
+                },
+                {
+                    "description": "Bildgalleri och tabell: 3 bilder brevid varandra, bilderna ca 30% bredd med rundade hörn bre (+-10px i storlek är OK). Tabellen har stilregler för färg och ram: 3 rader och 2 kolumner, 5px padding och 1px solid ram.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: HTML måste vara korrekt, tillhörande CSS-regler styr utseendet."
+                }
+            ]
+        },
+        {
+            "category": "Praxis & kvalitet",
+            "steps": [
+                {
+                    "description": "HTML-kodstruktur och kvalitet: Inga oavslutade HTML-taggar, ingen HTML-kod utanför body-elementet, och HTML-taggar används på rätt sätt enligt deras specifika funktion; och endast <br>-elementet används för att bryta text inom samma stycke (t.ex. adress eller poesi).",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer. Inga oavslutade taggar, korrekt HTML-struktur och användning av taggar enligt deras semantiska funktion."
+                },
+                {
+                    "description": "God praxis i fil- och kodstruktur: Filer är namngivna korrekt, med små bokstäver och bindestreck istället för mellanslag; CSS innehåller kommentarer.",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Filnamn följer namngivningspraxis med små bokstäver och bindestreck. CSS-reset kommentarer räknas inte. Kommentarer används för att förklara kodens syfte och struktur."
+                },
+                {
+                    "description": "CSS-design och layoutanpassning: En CSS-reset används, margin och padding används korrekt för att anpassa designen efter specifikationer, med marginella avvikelser på högst +-5px för utrymmen.",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: CSS-reset används och anpassas efter designkrav. Användningen av margin och padding är konsekvent och förbättrar den övergripande läsbarheten och strukturen utan att layouten känns för kompakt eller för utspridd."
+                }
+            ]
+        },
+        {
+            "category": "Tillgänglighet",
+            "steps": [
+                {
+                    "description": "Bilder har beskrivande alt-attribut, och språket är korrekt satt till sv på webbsidan.",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Villkor för att uppfylla kriteriersteget: Minst några bilder har beskrivande alt-attribut, och dokumentet specificerar korrekt språk i HTML-tag."
+                }
+            ]
+        }
+    ]
+}
