@@ -8,37 +8,37 @@
                     "description": "Flera variabler, olika datatyper",
                     "grade": "E",
                     "fulfilled": "",
-                    "comments": ""
+                    "comments": "Måste vara korrekt implementerat."
                 },
                 {
                     "description": "Variablerna används i lösningen",
                     "grade": "E",
                     "fulfilled": "",
-                    "comments": ""
+                    "comments": "Måste vara korrekt implementerat."
                 },
                 {
                     "description": "Finns minst en if-else-sats",
                     "grade": "E",
                     "fulfilled": "",
-                    "comments": ""
+                    "comments": "Måste vara korrekt implementerat och utan syntaxfel."
                 },
                 {
                     "description": "Finns minst en loop",
                     "grade": "E",
                     "fulfilled": "",
-                    "comments": ""
+                    "comments": "Måste vara korrekt implementerat och utan syntaxfel."
                 },
                 {
                     "description": "Finns minst en metod",
                     "grade": "E",
                     "fulfilled": "",
-                    "comments": ""
+                    "comments": "Måste vara korrekt implementerat och utan syntaxfel."
                 },
                 {
                     "description": "Finns minst en array eller lista",
                     "grade": "E",
                     "fulfilled": "",
-                    "comments": ""
+                    "comments": "Måste vara korrekt implementerat och utan syntaxfel."
                 },
                 {
                     "description": "Finns minst en enkel algoritm (tex en loop/villkor med variabler och inmatning/utmatning)",
