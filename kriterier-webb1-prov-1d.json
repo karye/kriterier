@@ -11,13 +11,13 @@
                     "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer. HTML-koden består av minst 2 nivåer av nästlade element inuti body-elementet. Exempelvis ska table innehålla tr och td på korrekt sätt."
                 },
                 {
-                    "description": "Google Fonts-typsnittet 'Playfair Display' används på alla text-element. Specifika färger används enligt följande: #000000 för textfärg, #7f0029 för h1 och a, #ffffff som bakgrundsfärg på div-kontainer. body har en bakgrundsbild.",
+                    "description": "Google Fonts-typsnittet 'montserrat' används på alla text-element. Menyn använder olika gråskaler för hover och aktivt tillstånd.",
                     "grade": "E",
                     "fulfilled": "",
                     "comment": "Villkor för att uppfylla kriteriersteget: Gäller CSS-filer. CSS-reset regler räknas inte med för tagg-selektorer."
                 },
                 {
-                    "description": "Designkrav och färger: huvudcontainer är centrerad med en maxbredd på ca 600px, bakgrundsfärg på tabellens caption är #7f0029.",
+                    "description": "Designkrav och färger: huvudcontainer är centrerad med en maxbredd på ca 700px, sidan är byggd med semantiska HTML-element och CSS-regler, och CSS-reglerna är korrekt tillämpade på HTML-elementen.",
                     "grade": "C",
                     "fulfilled": "",
                     "comment": "Villkor för att uppfylla kriteriersteget: HTML och CSS. Containern är centrerad med maxbredd runt 600px. Ingen CSS Flex eller Grid krävs. Små avvikelser i nyans accepteras."
