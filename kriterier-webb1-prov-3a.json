@@ -1,65 +1,74 @@
 {
-  "file_types": [
-    ".html",
-    ".css"
-  ],
+  "file_types": [".html", ".css"],
   "criteria": [
-    {
-      "category": "Standard & teknik",
-      "steps": [
-        {
-          "description": "HTML-koden inuti body-elementet innehåller HTML-elementen: h1, h2, p, a, img, table; och har valid struktur enligt HTML5-standard.",
-          "grade": "E",
-          "fulfilled": "",
-          "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer. HTML-koden består av minst 2 nivåer av nästlade element inuti body-elementet. Exempelvis ska table innehålla tr och td på korrekt sätt."
-        },
-        {
-          "description": "Webbplatsen ska bestå av 5 sidor med korrekt HTML5-struktur där varje sida innehåller en bild med bildtext, en horisontell meny och en sidfot med en länk till Wikipedia, där texten formateras med sans-serif. Webbsidan skall byggas med korrekt semantiska HTML-element och CSS-regler.",
-          "grade": "C",
-          "fulfilled": "",
-          "comment": "Villkor: HTML-filerna ska ha giltig struktur och inkludera alla specificerade element."
-        },
-        {
-          "description": "Huvudcontainern ska vara centrerad med en maxbredd på ca 700px. Rubriken och menyn ska formateras med Google Fonts Montserrat enligt angiven CSS-import. Menyn ska ha gråa knappar med ljusgrå indikation för den aktiva sidan.",
-          "grade": "C",
-          "fulfilled": "",
-          "comment": "Villkor: CSS-stilar ska tydligt markera aktivt tillstånd med korrekt färgskala."
-        }
-      ]
-    },
-    {
-      "category": "Praxis & kvalitet",
-      "steps": [
-        {
-          "description": "All kod (HTML och CSS) ska vara välkommenterad och indenterad enligt god praxis.",
-          "grade": "E",
-          "fulfilled": "",
-          "comment": "Villkor: Kommentarer och konsekvent indentering underlättar läsbarhet och underhåll."
-        },
-        {
-          "description": "Filer ska vara namngivna med små bokstäver och bindestreck istället för mellanslag, och koden ska ha en logisk struktur.",
-          "grade": "E",
-          "fulfilled": "",
-          "comment": "Villkor: Filnamn och mappstruktur ska följa de angivna riktlinjerna."
-        },
-        {
-          "description": "En CSS-reset ska användas för att säkerställa enhetliga utgångsvärden i webbläsaren.",
-          "grade": "E",
-          "fulfilled": "",
-          "comment": "Villkor: CSS-reset regler ska inkluderas i CSS-filerna."
-        }
-      ]
-    },
-    {
-      "category": "Tillgänglighet",
-      "steps": [
-        {
-          "description": "Bilder ska ha beskrivande alt-attribut och HTML-dokumentet ska ange språket som sv.",
-          "grade": "E",
-          "fulfilled": "",
-          "comment": "Villkor: Minst en bild per sida ska ha alt-text och språkattributet ska vara korrekt satt."
-        }
-      ]
-    }
+      {
+          "category": "Standard & teknik",
+          "steps": [
+                {
+                  "description": "HTML-koden inuti body-elementet innehåller HTML-elementen: h1, p, a, img; och har valid struktur enligt HTML5-standard.",
+                  "grade": "E",
+                  "fulfilled": "",
+                  "comment": "Villkor för att uppfylla kriteriersteget: Gäller bara HTML-filer. HTML-koden består av minst 2 nivåer av nästlade element inuti body-elementet."
+              },
+              {
+                "description": "Google Fonts Montserrat används på rubriken och menyn, medan övrig text använder 'sans-serif'. Menyns knappar är gråa med ljusgrå markering för den aktiva sidan.",
+                "grade": "E",
+                "fulfilled": "",
+                "comment": "Villkor: Gäller HTML- och CSS-filer. CSS-import för Montserrat ska inkluderas och menyknapparna ska tydligt visa aktivt tillstånd."
+              },
+              {
+                  "description": "HTML-koden innehåller semantiska element: header, nav, main och footer, med en rubrik, horisontell meny, en bild med bildtext samt en sidfot med länk till Wikipedia, och följer HTML5-standard.",
+                  "grade": "C",
+                  "fulfilled": "",
+                  "comment": "Villkor: Gäller HTML-filer. Koden ska vara strukturerad med semantiska element och korrekt HTML5-syntax."
+              },
+              {
+                  "description": "Layout: Huvudcontainern är centrerad med en maxbredd på ca 700px, och designen uppfyller angivna krav med korrekt användning av CSS-regler.",
+                  "grade": "C",
+                  "fulfilled": "",
+                  "comment": "Villkor: Gäller HTML och CSS. Containern ska vara centrerad med en maxbredd på ca 700px. Små avvikelser accepteras."
+              },
+              {
+                  "description": "Bild och bildtext: Varje sida innehåller en bild med tillhörande bildtext formaterad med 'sans-serif'.",
+                  "grade": "C",
+                  "fulfilled": "",
+                  "comment": "Villkor: Gäller HTML och CSS. Bilden ska ha ett beskrivande alt-attribut och bildtexten ska vara tydlig och korrekt formaterad."
+              }
+          ]
+      },
+      {
+          "category": "Praxis & kvalitet",
+          "steps": [
+              {
+                  "description": "HTML-kodstruktur och kvalitet: Korrekt användning av HTML-taggar, ingen HTML-kod utanför body, och semantiska element används på rätt sätt.",
+                  "grade": "E",
+                  "fulfilled": "",
+                  "comment": "Villkor: Gäller HTML-filer. Inga oavslutade taggar och korrekt HTML-struktur enligt semantiska principer."
+              },
+              {
+                  "description": "God praxis i fil- och kodstruktur: Filer är namngivna med små bokstäver och bindestreck, samt att CSS-filer innehåller relevanta kommentarer.",
+                  "grade": "E",
+                  "fulfilled": "",
+                  "comment": "Villkor: Filnamn ska följa god praxis. Kommentarer används för att förklara kodens syfte och struktur."
+              },
+              {
+                  "description": "CSS-design och layoutanpassning: En CSS-reset används och margin samt padding hanteras korrekt med marginella avvikelser på högst ±5px.",
+                  "grade": "C",
+                  "fulfilled": "",
+                  "comment": "Villkor: Gäller CSS-filer. CSS-reset ska vara implementerad och layouten anpassad enligt specifikationerna."
+              }
+          ]
+      },
+      {
+          "category": "Tillgänglighet",
+          "steps": [
+              {
+                  "description": "Bilder har beskrivande alt-attribut, och webbsidans språk är korrekt satt till sv.",
+                  "grade": "E",
+                  "fulfilled": "",
+                  "comment": "Villkor: Gäller HTML-filer. Alt-attribut ska finnas på bilder och språkattributet vara korrekt inställt."
+              }
+          ]
+      }
   ]
 }
