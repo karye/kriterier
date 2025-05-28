@@ -1,0 +1,253 @@
+{
+    "file_types": [
+        ".html",
+        ".css",
+        ".js",
+        ".docx"
+    ],
+    "criteria": [
+        {
+            "category": "Projektplan",
+            "steps": [
+                {
+                    "description": "Beskriver enkelt webbplatsens syfte, målgrupp, innehåll och delsidor",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Enkel projektplan med grundläggande beskrivning."
+                },
+                {
+                    "description": "Skapar skiss/wireframe för en webbsida",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Enkel skiss för en sida."
+                },
+                {
+                    "description": "Beskriver mer utförligt syfte, målgrupp, innehåll och delsidor",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Utförligare projektplan."
+                },
+                {
+                    "description": "Skapar skiss/wireframe för flera webbsidor",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Skisser för flera sidor."
+                },
+                {
+                    "description": "Beskriver mycket utförligt syfte, målgrupp, innehåll och delsidor",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Mycket utförlig projektplan."
+                },
+                {
+                    "description": "Skapar skiss/wireframe för alla webbsidor",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Skisser för alla sidor."
+                },
+                {
+                    "description": "Skapar skiss/wireframe också för mobil och läsplatta",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Skisser för olika enheter."
+                }
+            ]
+        },
+        {
+            "category": "Kodning",
+            "steps": [
+                {
+                    "description": "Följer HTML5-standard (inga fel i VS Code)",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "HTML5-standard."
+                },
+                {
+                    "description": "Använder grundläggande HTML-element: rubriker, stycken, listor, bilder och divar",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Grundläggande HTML-element."
+                },
+                {
+                    "description": "Har rätt ordning på rubriker h1→h6",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Korrekt rubrikstruktur."
+                },
+                {
+                    "description": "Grundläggande CSS-regler för formatering: color, background",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Grundläggande CSS-formatering."
+                },
+                {
+                    "description": "Använder CSS box-modellen för layout: margin & padding",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Box-modellen används."
+                },
+                {
+                    "description": "Använder några semantiska element: header, nav, main eller footer",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Semantiska element används."
+                },
+                {
+                    "description": "Klass- och id-selektorer med genomtänkta namn",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Genomtänkta klass- och id-namn."
+                },
+                {
+                    "description": "Uppfyller grundläggande tillgänglighetskrav (beskrivande alt-attribut, korrekt html lang)",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Grundläggande tillgänglighet."
+                },
+                {
+                    "description": "Använder flex för horisontell placering",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Flex används för layout."
+                },
+                {
+                    "description": "Responsivitet med @media-regler för mobil > dator",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Responsivitet mellan mobil och dator."
+                },
+                {
+                    "description": "Optimerade bilder (.webp) i rätt storlek",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Optimerade bilder används."
+                },
+                {
+                    "description": "Använder enkel Javascript som gör något på sidan",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Enkel JS-funktionalitet."
+                },
+                {
+                    "description": "Använder semantiska element: header, nav, main och footer",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Alla semantiska element används."
+                },
+                {
+                    "description": "Avancerad grid och grid-template-layout",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Avancerad grid-layout."
+                },
+                {
+                    "description": "Responsivitet med @media-regler för mobil > läsplatta > dator",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Responsivitet för flera enheter."
+                },
+                {
+                    "description": "Layout följer kolumnstruktur 1/2/3+ för mobil > läsplatta > dator",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Kolumnstruktur för olika enheter."
+                },
+                {
+                    "description": "Dynamiska måttenheter (rem, em, vh/vw) istället för px",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Dynamiska måttenheter används."
+                },
+                {
+                    "description": "Avancerade CSS-selektorer (t.ex. arv-selektorer .klass > barn)",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Avancerade selektorer används."
+                },
+                {
+                    "description": "JavaScript som lägger till, ändrar och tar bort element",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Avancerad JS-manipulation."
+                }
+            ]
+        },
+        {
+            "category": "Dokumentation",
+            "steps": [
+                {
+                    "description": "Testar i en webbläsare (t.ex. Chrome)",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Test i en webbläsare."
+                },
+                {
+                    "description": "Validerar HTML i W3C",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "HTML-validering."
+                },
+                {
+                    "description": "Visas korta testsresultat från Chrome Lighthouse",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Lighthouse-testresultat."
+                },
+                {
+                    "description": "Enkel utvärdering där produkten jämförs med ursprunglig plan",
+                    "grade": "E",
+                    "fulfilled": "",
+                    "comment": "Enkel utvärdering."
+                },
+                {
+                    "description": "Testar i tre webbläsare (Chrome, Firefox & Edge) och rapporterar resultat",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Test i flera webbläsare."
+                },
+                {
+                    "description": "Redogör för kodning i en logg",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Kodlogg."
+                },
+                {
+                    "description": "Detaljerad utvärdering av layout, responsivitet och tillgänglighet",
+                    "grade": "C",
+                    "fulfilled": "",
+                    "comment": "Detaljerad utvärdering."
+                },
+                {
+                    "description": "Testar webbplatsen på dator, läsplatta och mobil",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Test på flera enheter."
+                },
+                {
+                    "description": "Använder Mozilla Accessibility-verktyg och simulerar Protanopia & Deuteranopia",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Tillgänglighetstest."
+                },
+                {
+                    "description": "Anpassar bilders storlek och använder filformat .webp",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Optimerade bilder och format."
+                },
+                {
+                    "description": "Redogör för kodning i logg och föreslår konkreta förbättringar",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Kodlogg och förbättringsförslag."
+                },
+                {
+                    "description": "Ger genomtänkta förbättringsförslag på HTML/CSS-funktionalitet, liggande läge och innehåll vid roterad skärm",
+                    "grade": "A",
+                    "fulfilled": "",
+                    "comment": "Förbättringsförslag för funktionalitet och layout."
+                }
+            ]
+        }
+    ]
+}
